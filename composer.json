@@ -1,0 +1,21 @@
+{
+    "name": "eduardo/proyect-php",
+    "description": "proyect test",
+    "autoload": {
+        "psr-4": {
+            "Phoenix\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "eduardo",
+            "email": "jorge.ecrg@gmail.com"
+        }
+    ],
+    "version": "1.0.0",
+    "require": {
+        "bramus/router": "~1.6",
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

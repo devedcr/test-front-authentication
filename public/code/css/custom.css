@@ -1,0 +1,18 @@
+.custom-text-gradient {
+    background: linear-gradient(to right, #F6A21C, #EA4225);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.custom-text-gradient::selection {
+    -webkit-text-fill-color: white;
+}
+
+.custom-box-shadow {
+    box-shadow: 5px 5px 15px -10px rgba(0, 0, 0, 0.5);
+}
+
+.custom-bg-gradient {
+    background-image: linear-gradient(to right, #fb9f31, #ef3d28);
+    border: none;
+}
