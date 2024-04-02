@@ -16,3 +16,13 @@
     background-image: linear-gradient(to right, #fb9f31, #ef3d28);
     border: none;
 }
+
+#box-content-info {
+    height: 200px;
+    top: -100px;
+    left: 0;
+}
+
+#box-content-info>div {
+    width: 200px;
+}
