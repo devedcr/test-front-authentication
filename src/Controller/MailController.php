@@ -22,7 +22,7 @@ class MailController
         $body = json_decode(file_get_contents('php://input'), true);
         $templateMail = file_get_contents(dirname(__DIR__) . "/Template/mail.php");
         try {
-            //$this->mail->send($this->subject, $templateMail, $body["toAddress"]);
+            $this->mail->send($this->subject, $templateMail, $body["toAddress"]);
             echo json_encode(["ok" => true, "message" => "send mail success"]);
         } catch (Exception $error) {
             http_response_code(500);
